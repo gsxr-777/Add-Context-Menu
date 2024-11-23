@@ -30,7 +30,7 @@
 2. Найдите в поиске `addContextMenu.enableReplace`.
 3. Установите в положение `true`.
 
-```json
+  ```json
 {
   "addContextMenu.enableReplace": true
 }

@@ -16,7 +16,8 @@ Adds a context menu item to search for selected text in VS Code.
    code --install-extension add-context-menu-0.0.1.vsix
 
 ## Uninstall
- ``bash
+   
+    ``bash
    code --uninstall-extension undefined_publisher.add-context-menu   
 
 ## Settings
@@ -28,7 +29,7 @@ To enable "Replace" in the context menu:
 2. Search for `addContextMenu.enableReplace`.
 3. Set it to `true`.
 
-```json
+  ```json
 {
   "addContextMenu.enableReplace": true
 }
