@@ -11,36 +11,29 @@
 ## Установка
 1. Скачайте `add-context-menu-0.0.1.vsix` файл из релизов.
 2. Установите расширение, используя команду в терминале редактора VS Code:
-
-   ```bash
-   code --install-extension add-context-menu-0.0.1.vsix
+```bash
+code --install-extension add-context-menu-0.0.1.vsix
+```
 
 ## Удаление
-
-    ``bash
-   code --uninstall-extension undefined_publisher.add-context-menu
+```bash
+code --uninstall-extension undefined_publisher.add-context-menu
+```
 
 ## Настройки
 - `addContextMenu.enableReplace`: Включить пункт 'Заменить' в контекстном меню
 
 ### Пример
 Чтобы включить функцию "Заменить" в контекстном меню:
-
 1. Откройте настройки (`Ctrl + ,`).
 2. Найдите в поиске `addContextMenu.enableReplace`.
 3. Установите в положение `true`.
 
-  ```json
+```json
 {
   "addContextMenu.enableReplace": true
 }
-
-### Пояснения:
-1. **`config.addContextMenu.enableReplace === true`** в `when` условии в `menus` определяет, когда пункт "Замена" будет отображаться в контекстном меню.
-2. В **`package.json`** добавляется новое поле **`configuration`**, которое позволяет пользователю настраивать этот параметр.
-3. В **`extension.js`** добавляются команды, которые выполняют стандартные команды поиска и замены VS Code.
-
-После этих изменений плагин будет поддерживать настройку, чтобы пользователь мог включать/выключать пункт "Замена" в контекстном меню.
+```
 
 ## Использование
 1. Выделите текст в редакторе
