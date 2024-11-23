@@ -1,0 +1,6 @@
+{
+  "command.add-context-menu.search": "Find",
+  "command.add-context-menu.replace": "Replace",
+  "config.enableReplace.title": "Enable Replace",
+  "config.enableReplace.description": "Enable the 'Replace' option in the context menu"
+}

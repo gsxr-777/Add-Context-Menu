@@ -1,0 +1,6 @@
+{
+  "command.add-context-menu.search": "Найти",
+  "command.add-context-menu.replace": "Заменить",
+  "config.enableReplace.title": "Включить замену",
+  "config.enableReplace.description": "Включить пункт 'Заменить' в контекстном меню"
+}

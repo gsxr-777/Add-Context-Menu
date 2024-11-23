@@ -21,7 +21,12 @@
     "commands": [
       {
         "command": "add-context-menu.search",
-        "title": "Найти"
+        "title": "%command.add-context-menu.search%"
+      },
+      {
+        "command": "add-context-menu.replace",
+        "title": "%command.add-context-menu.replace%",
+        "when": "config.addContextMenu.enableReplace === true"
       }
     ],
     "menus": {
@@ -29,28 +34,25 @@
         {
           "command": "add-context-menu.search",
           "when": "editorHasSelection",
-          "group": "0_search"
+          "group": "0_search@1"
+        },
+        {
+          "command": "add-context-menu.replace",
+          "when": "editorHasSelection && config.addContextMenu.enableReplace",
+          "group": "0_search@2"
         }
       ]
+    },
+    "configuration": {
+      "type": "object",
+      "properties": {
+        "addContextMenu.enableReplace": {
+          "type": "boolean",
+          "default": false,
+          "title": "%config.enableReplace.title%",
+          "description": "%config.enableReplace.description%"
+        }
+      }
     }
-  },
-  "scripts": {
-    "vscode:prepublish": "npm run compile",
-    "compile": "tsc -p ./",
-    "watch": "tsc -watch -p ./",
-    "pretest": "npm run compile && npm run lint",
-    "lint": "eslint src",
-    "test": "vscode-test"
-  },
-  "devDependencies": {
-    "@types/vscode": "^1.95.0",
-    "@types/mocha": "^10.0.9",
-    "@types/node": "20.x",
-    "@typescript-eslint/eslint-plugin": "^8.10.0",
-    "@typescript-eslint/parser": "^8.7.0",
-    "eslint": "^9.13.0",
-    "typescript": "^5.6.3",
-    "@vscode/test-cli": "^0.0.10",
-    "@vscode/test-electron": "^2.4.1"
   }
 }
