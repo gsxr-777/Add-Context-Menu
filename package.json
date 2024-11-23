@@ -2,6 +2,7 @@
   "name": "add-context-menu",
   "displayName": "Add context menu",
   "description": "Adds a context menu item to search for selected text VS Code.",
+  "publisher": "gsxr777",
   "repository": {
     "type": "git",
     "url": "https://github.com/gsxr-777/Add-Context-Menu"

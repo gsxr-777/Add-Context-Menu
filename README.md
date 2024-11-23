@@ -17,7 +17,7 @@ code --install-extension add-context-menu-0.0.1.vsix
 
 ## Uninstall
 ```bash
-code --uninstall-extension undefined_publisher.add-context-menu
+code --uninstall-extension gsxr777.add-context-menu
 ```
 
 ## Settings
