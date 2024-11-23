@@ -7,11 +7,12 @@ Add Context Menu
 ## Features
 
 Adds a context menu item to search for selected text VS Code.
-Добавляет пункт контекстного меню для поиска выделенного текста в редакторе VS Code.
+
+Добавляет пункт «Найти» в контекстного меню для поиска выделенного текста в редакторе VS Code без выполнения команды CTRL+F.
 
 ## Requirements
 
-VS Code and Not at all :-).
+VS Code 1.95.0 or later and Not at all :-).
 
 
 ## Known Issues

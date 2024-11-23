@@ -1,7 +1,13 @@
 {
   "name": "add-context-menu",
   "displayName": "Add context menu",
-  "description": "Adds a context menu item to search for selected text.",
+  "description": "Adds a context menu item to search for selected text VS Code.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gsxr-777/Add-Context-Menu"
+  },
+  "author": "gsxr777",
+  "license": "Unlicense",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.95.0"
@@ -15,7 +21,7 @@
     "commands": [
       {
         "command": "add-context-menu.search",
-        "title": "Найти выделенное"
+        "title": "Найти"
       }
     ],
     "menus": {
