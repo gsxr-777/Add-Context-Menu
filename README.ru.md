@@ -15,9 +15,9 @@
    ```bash
    code --install-extension add-context-menu-0.0.1.vsix
 
- ## Удаление
+## Удаление
 
-   ```bash
+    ``bash
    code --uninstall-extension undefined_publisher.add-context-menu
 
 ## Настройки

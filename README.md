@@ -15,9 +15,8 @@ Adds a context menu item to search for selected text in VS Code.
    ```bash
    code --install-extension add-context-menu-0.0.1.vsix
 
-## Uninstall 🔹 Удаление
-
-   ```bash
+## Uninstall
+ ``bash
    code --uninstall-extension undefined_publisher.add-context-menu   
 
 ## Settings
