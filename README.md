@@ -1,14 +1,14 @@
 # Add Context Menu README
 
-Add Context Menu.
+Add Context Menu for VS Code.
 
 ## Features
 
-Adds a context menu item to search for selected text and many more.
+Adds a context menu item to search for selected text and many more at VS Code.
 
 ## Requirements
 
-Not at all.
+VS Code and Not at all.
 
 
 ## Known Issues
